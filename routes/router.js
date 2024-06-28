@@ -3,6 +3,14 @@ const router=express.Router();
 const students= require("../models/studSchema");
 
 
+router.get("/", async (req, res) => {
+    try {
+        console.log("Welcome Students");
+    } catch (err) {
+        console.error(err);
+        return res.status(500).json({ message: "Server error", error: err });
+    }
+});
 
 router.post("/addstud",async (req, res, )=>{
     console.log(req.body)

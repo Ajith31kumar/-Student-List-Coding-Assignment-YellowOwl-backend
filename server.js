@@ -31,4 +31,3 @@ app.listen(PORT,()=>{
 })
 
 
-// mongodb+srv://admin:admin12345@cluster0.yag9vlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
